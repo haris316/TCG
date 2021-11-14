@@ -1,0 +1,77 @@
+.newsletter-container {
+  padding: 4rem 0 2rem 0;
+  display: flex;
+  position: relative;
+  height: 250px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.63),
+      rgba(0, 0, 0, 0.63)
+    ),
+    url("../assets/images/banner.webp");
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.newsletter-subscription {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 24px;
+  padding: 24px;
+  width: 50%;
+  color: #fff;
+}
+
+.newsletter-subscription > p {
+  font-size: 2rem;
+}
+
+.newsletter-subscription-heading {
+  margin-bottom: 20px;
+  /* font-size: 24px; */
+}
+
+.newsletter-subscription-text {
+  margin-bottom: 24px;
+  font-size: 20px;
+}
+
+.input-areas {
+  width: 70%;
+  margin-bottom: 24px;
+}
+
+.newsletter-input {
+  padding: 8px 0px;
+  border-radius: 2px;
+  /* margin-right: 10px; */
+  justify-content: center;
+  text-align: center;
+  color: rgba(165, 161, 161, 0.959);
+  width: 100%;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  margin-bottom: 20px;
+  border: 1px solid rgba(165, 161, 161, 0.959);
+}
+
+.input-areas .btn {
+  width: 200px;
+  margin: 6px;
+  /* width: 300px; */
+  background-color: #080808e0;
+  border: 1px solid #080808da;
+  border-radius: 5px;
+}
+.input-areas .btn:hover {
+  background-color: transparent;
+  color: white;
+}

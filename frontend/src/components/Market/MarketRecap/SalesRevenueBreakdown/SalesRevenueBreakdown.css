@@ -1,0 +1,81 @@
+.sales__revenue__breakdown {
+  padding: 0px 10px 0px 10px;
+}
+
+.srbl__box {
+  background-color: rgb(15, 15, 15);
+  padding: 10px;
+  border-radius: 15px;
+  height: 450px;
+  margin: 20px 0px;
+}
+
+.srbl__heading__area {
+  height: 15%;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(70, 69, 69, 0.933);
+}
+
+.srbl__heading {
+  color: #fff;
+  display: flex;
+  width: 30%;
+  height: 60px;
+  align-items: center;
+  padding-left: 10px;
+  align-items: center;
+  border-right: 4px solid rgb(22, 125, 241);
+}
+
+.srbl__dropdown {
+  width: 25%;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.srbl__description {
+  text-align: right;
+  width: 45%;
+  color: #fff;
+}
+
+.srbp__box {
+  background-color: rgb(15, 15, 15);
+  padding: 10px;
+  border-radius: 15px;
+  height: 450px;
+  margin: 20px 0px;
+}
+
+.srbp__heading__area {
+  height: 15%;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(70, 69, 69, 0.933);
+}
+
+.srbp__heading {
+  color: #fff;
+  display: flex;
+  width: 30%;
+  height: 60px;
+  align-items: center;
+  padding-left: 10px;
+  align-items: center;
+  border-right: 4px solid rgb(22, 125, 241);
+}
+
+.srbp__description {
+  text-align: right;
+  width: 45%;
+  color: #fff;
+}
+
+.srbp__dropdown {
+  width: 25%;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}

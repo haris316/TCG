@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.right_side {
+  width: 80%;
+  /* padding-left: 30px; */
+}
+.card-container {
+  padding: 15px 10px;
+  justify-content: center;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+  -ms-flex-pack: left;
+  justify-content: left;
+  -webkit-box-align: left;
+  -ms-flex-align: left;
+  align-items: left;
+}
+
+.row {
+  /* display: -webkit-box;
+  display: -ms-flexbox; */
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px 5px;
+  /* -ms-flex-pack: distribute;
+      justify-content: left; */
+}
+
+.card {
+  margin: 10px 5px;
+  width: fit-content;
+}
+
+.card_img {
+  background-size: contain;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  position: relative;
+  bottom: calc(100% - 300px);
+  height: 250px;
+  border-radius: 10px;
+  -webkit-transition: ease all 0.25s;
+  transition: ease-in-out 0.25s;
+}
+.card_img:hover {
+  transform: scale3d(1.2, 1.2, 1.2);
+  z-index: 1;
+  overflow: visible;
+  animation-name: example;
+  animation-duration: 0.25s;
+  /* box-shadow: 5px 5px 5px #111111; */
+  /* border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  animation-name: example; 
+  animation-duration: 0.25s;
+  border-left: 8px solid silver; */
+  box-shadow: 0 30px 10px 10px #030303a4;
+}
+@keyframes example {
+  0% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: scale3d(1.04, 1.04, 1.04) rotate(3deg) translate(-5px, 0);
+  }
+  40% {
+    transform: scale3d(1.08, 1.08, 1.08) rotate(4deg) translate(-10px, 0);
+  }
+  60% {
+    transform: scale3d(1.12, 1.12, 1.12) rotate(5deg) translate(-10px, 0);
+  }
+  80% {
+    transform: scale3d(1.16, 1.16, 1.16) rotate(2deg) translate(-5px, 0);
+  }
+  100% {
+    transform: scale3d(1.2, 1.2, 1.2) rotate(0deg) translate(0, 0);
+  }
+}
+.cardInfo {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: white;
+  width: 142px;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 10px;
+}
+.cardText {
+  width: 70%;
+}
+.cardName {
+  font-size: 13px;
+  /* font-family: "Century Gothic"; */
+}
+.cardSet {
+  font-size: 10px;
+  color: gray;
+  /* font-family: "Century Gothic"; */
+}
+.cardPrice {
+  /* font-family: "Century Gothic"; */
+  font-style: italic;
+  width: 30%;
+  text-align: right;
+}
+.page-buttons {
+  margin: 60px;
+  float: right;
+  width: inherit;
+}
+.page-whole {
+  /* margin-left: auto; */
+  margin-right: auto;
+  width: inherit;
+  display: flex;
+  color: white;
+  margin-bottom: 10px;
+}
+.load-more {
+  width: auto;
+  color: white;
+  float: right;
+  margin: 0px;
+  margin-right: 40px;
+}
+.page-text {
+  padding: 5px;
+  width: fit-content;
+  color: white;
+  font-family: "Century Gothic";
+  width: auto;
+}
+.page-text-no-cards {
+  float: left;
+  text-align: left;
+  padding-top: 5px;
+  margin-left: 5px;
+  width: 100%;
+  color: white;
+  font-family: "Century Gothic";
+}
+.shop {
+  width: 100%;
+  background-color: #0c1b2b;
+}
+.Main {
+  width: 100%;
+  display: flex;
+  padding-top: 10px;
+}
+.FS-Container {
+  font-family: "Century Gothic";
+  width: 15%;
+  padding: 20px 20px;
+  font-size: 30px;
+  color: white;
+  /* padding-top : 10px; */
+  margin-top: 60px;
+  border-right: solid 1px rgb(49, 49, 49);
+}
+.FS-Container > h3 {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.filter-main {
+  /* font-family: "Century Gothic"; */
+  width: fit-content;
+  align-self: left;
+  align-items: center;
+  font-size: 15px;
+  /* font-family: Arial, Helvetica, sans-serif normal; */
+}
+.search-main {
+  font-family: "Century Gothic";
+  /* width: 100%; */
+  padding: 5px;
+  padding-bottom: 5px;
+  /* padding-right: 40px; */
+}
+.shop__search {
+  background-color: #0b151f;
+  /* font-family: "Century Gothic"; */
+  /* border-radius: 5px; */
+  font-size: medium;
+  color: gray;
+  width: 50%;
+  height: 37px;
+  border-radius: 5px;
+  align-self: flex-start;
+  padding-left: 10px;
+  border: 1px solid #1a3a5c;
+}
+.OneBigBox {
+  /* font-family: "Century Gothic"; */
+  padding: 10px 0px 20px 0px;
+  /* color: gray; */
+  /* border-radius: 5px; */
+  border-bottom: solid 1px rgb(49, 49, 49);
+}
+.OneBigBox > h2 {
+  font-size: 21px;
+  padding: 10px 0px;
+}
+.OneBox {
+  /* font-family: "Century Gothic"; */
+  font-size: 15px;
+  padding: 4px;
+  display: flex;
+  margin-bottom: 5px;
+}
+.OneBox > p,
+.OneBox > span {
+  font-size: 12px;
+  align-items: center;
+}
+.Box {
+  /* font-family: "Century Gothic"; */
+  padding-top: 1px;
+  padding-right: 3px;
+  color: #0c1b2b;
+}
+.results__found {
+  display: flex;
+  justify-content: center;
+}
+.ResultText {
+  width: 85%;
+  /* font-family: "Century Gothic"; */
+  padding: 10px 10px;
+  color: white;
+}
